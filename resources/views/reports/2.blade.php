@@ -140,7 +140,7 @@
 </div>
 <!-- Market Value page -->
 <div class="page-break container market-value">
-    <div class="heading heading__no-border flex-row">
+    <div class="heading heading__no-border flex-row align-start">
         <div class="heading-title">
             <h1>
                 Market Value
@@ -157,7 +157,14 @@
         </div>
     </div>
     <div class="content">
-        <div class="content-info flex-row space-evenly">
+        <div class="source">
+            <p>
+                Source: <span>
+                    EFPIA pharma report
+                </span>
+            </p>
+        </div>
+        <div class="content-info flex-row flex-center">
             <div class="content-info__item">
                 <div class="content-info__item-top">
                     <h2>
@@ -222,16 +229,1333 @@
                 </div>
             </div>
         </div>
-        <div class="content-graphs">
+        <div class="content-graphs flex-row flex-start align-start">
+            <div class="content-graphs__currency">
+                <p>
+                    £BN
+                </p>
+            </div>
+            <div class="content-graphs__values flex-col">
+                <div>
+                    2.5
+                </div>
+                <div>
+                    2.0
+                </div>
+                <div>
+                    1.5
+                </div>
+                <div>
+                    1.0
+                </div>
+                <div>
+                    0.5
+                </div>
+            </div>
+            <div class="content-graphs__table flex-col flex-center">
+                <div class="charts flex-row flex-center">
+                    <div class="chart flex-row align-baseline">
+                        <div class="chart-orange">
+                            <div class="chart-placeholder">
+                                <p>UK</p>
+                            </div>
+                        </div>
+                        <div class="chart-gray">
+                            <div class="chart-placeholder">
+                                <p>EU</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart flex-row align-baseline">
+                        <div class="chart-orange">
+                            <div class="chart-placeholder">
+                                <p>UK</p>
+                            </div>
+                        </div>
+                        <div class="chart-gray">
+                            <div class="chart-placeholder">
+                                <p>EU</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart flex-row align-baseline">
+                        <div class="chart-orange">
+                            <div class="chart-placeholder">
+                                <p>UK</p>
+                            </div>
+                        </div>
+                        <div class="chart-gray">
+                            <div class="chart-placeholder">
+                                <p>EU</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+                <div class="line">
+
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<!-- Eco-System page -->
+<div class="page-break container eco-system">
+    <div class="heading heading__no-border flex-row align-start">
+        <div class="heading-title">
+            <h1>
+                Eco-System
+            </h1>
+        </div>
+        <div class="heading-content">
+            <p>
+                The Cambridgeshire and Peterborough region is globally renowned as one of the best locations to grow a
+                Life
+                Sciences company. Aligned with world class Universities, the region boasts an impressive number of the
+                largest Life Science companies in the UK. The regional cluster alone contributes over £3bn annually to
+                the
+                UK economy.
+            </p>
+            <p class="pt-20">
+                The Cambridgeshire and Peterborough cluster is the global HQ of AstraZeneca and also has the presence of
+                other global industry leaders such as GlaxoSmithKline and Envigo. Local industry generates numerous
+                spin-outs with innovative products, including Abcam (which offers research tools into proteins and other
+                chemicals), Crescendo Biologics (therapeutics in oncology) and Kymab (developing antibody technologies).
+            </p>
+        </div>
+    </div>
+    <div class="cards flex-row align-start">
+        <div class="card">
+            <div class="card-icon flex-row flex-center">
+                <div>
+                    <svg width="90" height="120" viewBox="0 0 45 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.03 6.3575C28.305 10.95 30.575 16.04 30.5 22.835C30.4325 29.2925 28.365 37.3275 25.9725 46.63L25.75 47.5H20.27C17.6725 37.9975 15.5 29.7575 15.5 22.9775C15.5 16.2125 17.845 10.9675 23.03 6.3575ZM23 0C14.2775 6.2575 10.5 13.72 10.5 22.9775C10.5 31.3275 13.365 41.165 16.45 52.5H29.6325C32.585 40.83 35.4125 31.0575 35.5 22.89C35.6 13.5625 31.8975 6.2925 23 0ZM44.565 51.87L37.95 39.91C37.53 41.69 37.0975 43.435 36.6325 45.2775L41.04 53.245L35.51 49.6825L34.5275 53.5125L44.6075 60C44.95 58.6375 45.5 56.89 45.5 55.515C45.5 54.245 45.1825 52.9875 44.565 51.87ZM0.5 55.515C0.5 56.89 1.1075 58.6375 1.4525 60L11.53 53.5125L10.5475 49.6825L5.0175 53.245L9.425 45.2775C8.9575 43.435 8.5275 41.69 8.1075 39.91L1.4925 51.87C0.875 52.9875 0.5 54.245 0.5 55.515ZM26.6175 60H19.38L18 55H28L26.6175 60ZM27.88 20.255C24.7225 20.505 21.3325 20.505 18.17 20.26C17.68 21.6025 17.8 23.7325 18.06 24.76C19.54 24.955 21.2525 25.065 22.9975 25.065C24.73 25.065 26.4325 24.9575 27.91 24.7625C28.195 23.71 28.3125 21.5225 27.88 20.255Z"
+                            fill="#514463"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="card-title">
+                <h2>
+                    Investment
+                </h2>
+                <p>
+                    Active & Connected Investor Community
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon flex-row flex-center">
+                <div>
+                    <svg width="120" height="120" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M32.5 50.005H37.5V60H32.5V50.005ZM15.245 60H21.8125L30.3625 50.005H23.78L15.245 60ZM39.6775 50.005L48.2275 60H54.795L46.26 50.005H39.6775ZM60 7.47977C60 9.66978 59.0025 11.6148 57.5 12.9798V44.9999H10.04V34.9999H0C2.135 31.6674 2.54 27.6699 2.54 21.3598V8.40228C2.54 3.24725 5.845 0.172239 9.9225 0.0547386C9.88 -0.0227618 52.4125 0.00473836 52.5 0.00473836C56.6425 0.00473836 60 3.33725 60 7.47977ZM12.6525 7.53227C12.6525 6.15477 11.5325 5.03226 10.1525 5.03226C8.285 5.03226 7.5 6.52977 7.5 8.40228V21.3598C7.5 25.3173 7.5 27.4649 6.9275 30.0049H10.0375V10.0323C11.4175 10.0323 12.6525 8.90978 12.6525 7.53227ZM52.54 14.9998H15V40.0049H52.54V14.9998ZM52.5 4.99976H17.19C17.8275 6.74727 17.785 8.34727 17.1875 10.0048H52.5C55.7575 10.0048 55.8625 4.99976 52.5 4.99976ZM25.835 34.9999C29.1025 29.1399 31.37 26.1299 34.47 23.4248L34.0675 22.4998C30.31 24.8373 28.2875 26.5999 25.23 30.0699C23.6025 28.9099 22.685 28.3749 21.2375 27.6749L20 28.8199C22.4775 31.1149 23.82 32.6274 25.835 34.9999ZM47.5 22.4998H37.5V24.9998H47.5V22.4998ZM47.5 27.4999H37.5V29.9999H47.5V27.4999ZM47.5 32.4999H37.5V34.9999H47.5V32.4999Z"
+                            fill="#514463"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="card-title">
+                <h2>
+                    Research
+                </h2>
+                <p>
+                    Top 2 global ranked Pharma Universities
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon flex-row flex-center">
+                <div>
+                    <svg width="120" height="120" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M30 0C13.4325 0 0 13.4325 0 30C0 46.5675 13.4325 60 30 60C46.5675 60 60 46.5675 60 30C60 13.4325 46.5675 0 30 0ZM44.325 50.4575C44.06 49.1425 43.735 47.8425 43.33 46.57C45.5725 44.5425 45.48 41.0775 43.15 39.3625C44.605 33.5675 44.675 27.24 43.145 21.1425C43.61 20.865 44.015 20.5075 44.3325 20.08C47.9975 21.11 51.41 22.745 54.4625 24.8575C54.8125 26.52 55 28.2375 55 30C55 38.455 50.77 45.93 44.325 50.4575ZM5 30C5 27.8625 5.3 25.795 5.8075 23.8125C7.555 23.7025 9.29 23.7125 11.175 23.8925L11.275 24.4575C8.9725 26.395 6.9 28.61 5.0575 31.1425L5 30ZM12.9575 27.025C15.0775 28.6325 18.165 28.115 19.6125 25.8C26.8575 28.45 32.96 33.4925 36.9625 39.965C35.0475 41.9025 35.0725 44.96 37.01 46.7025C35.3075 49.78 33.14 52.565 30.61 54.97C18.355 55.2625 8.3 46.815 5.6875 35.7275C7.6175 32.4375 10.075 29.4925 12.9575 27.025ZM20.1725 22.2725C25.15 19.8375 30.56 18.6925 35.9825 18.83C36.745 20.3575 38.3075 21.52 40.1475 21.745H40.1625C41.555 27.1375 41.62 32.925 40.235 38.495L39.6775 38.5525C35.3675 31.49 28.595 25.725 20.27 22.8L20.1725 22.2725ZM35.3275 54.415C37.0825 52.3725 38.605 50.1775 39.86 47.8475L40.535 47.8275C40.965 49.2325 41.305 50.675 41.555 52.15C39.6125 53.165 37.525 53.935 35.3275 54.415ZM53.085 20.42C50.5625 19.02 47.895 17.915 45.1125 17.1425C44.8425 14.655 42.51 12.5825 39.815 12.6025C38.435 10.055 36.735 7.665 34.755 5.4675C43.0575 7.0725 49.9075 12.7925 53.085 20.42ZM36.905 13.65C36.2625 14.2 35.7975 14.9375 35.595 15.795C29.455 15.72 23.65 17.11 18.475 19.7075C16.35 18.1125 13.3 18.655 11.86 20.915C10.04 20.725 8.4125 20.685 6.8 20.735C10.49 11.5275 19.49 5 30 5H30.0025C32.745 7.485 35.0875 10.4 36.905 13.65Z"
+                            fill="#514463"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="card-title">
+                <h2>
+                    Connections
+                </h2>
+                <p>
+                    World class industry support networks
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon flex-row flex-center">
+                <div>
+                    <svg width="140" height="80" viewBox="0 0 70 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M56.9905 38H53.8302C53.8302 33.0853 54.0202 32.3792 51.0435 31.6888C46.4898 30.6375 42.1863 29.6463 40.6157 26.2137C40.0457 24.9597 39.6625 22.895 41.1065 20.1748C44.3397 14.0663 45.1503 8.82867 43.3295 5.8045C41.2015 2.27367 34.7573 2.25783 32.6103 5.85833C30.7863 8.92367 31.6097 14.1328 34.8682 20.1463C36.3407 22.857 35.9702 24.928 35.4002 26.1883C33.8485 29.6368 29.5862 30.6217 25.0705 31.6603C21.9608 32.3792 22.1572 33.0378 22.1572 38H19.0063L19 36.0272C19 32.0403 19.3167 29.7413 24.0287 28.652C29.355 27.4202 34.618 26.3213 32.0878 21.6568C24.5955 7.83433 29.9472 0 37.9937 0C45.885 0 51.3792 7.54617 43.9058 21.6568C41.4517 26.2928 46.5152 27.3948 51.965 28.652C56.6833 29.7413 56.9968 32.0467 56.9968 36.0398L56.9905 38ZM72.2222 30.989C68.1403 30.0453 64.3403 29.2188 66.1802 25.7418C71.7852 15.1588 67.6685 9.5 61.7468 9.5C57.741 9.5 54.6282 12.0872 54.6282 16.8625C54.6282 20.881 56.4458 23.75 57.4908 26.125H60.8095C60.2712 23.75 56.1672 18.012 58.3838 14.2943C59.6885 12.103 63.7798 12.0998 65.0782 14.2563C66.2815 16.2545 65.6513 19.9943 63.3872 24.2662C62.1585 26.5873 62.5005 28.386 63.004 29.4848C63.9698 31.5938 66.0978 32.6103 68.5045 33.3102C73.2767 34.7067 72.8365 33.4432 72.8365 37.9968H75.9937L76 36.5307C76 33.5382 75.7657 31.806 72.2222 30.989ZM0.00633333 38H3.1635C3.1635 33.4463 2.72333 34.7098 7.4955 33.3133C9.90533 32.6135 12.0333 31.597 12.996 29.488C13.4995 28.386 13.8415 26.5905 12.6128 24.2693C10.3487 19.9975 9.7185 16.2577 10.9218 14.2595C12.2202 12.0998 16.3115 12.103 17.6162 14.2975C19.8328 18.0183 15.7288 23.7532 15.1905 26.1282H18.5092C19.5542 23.7532 21.3718 20.8842 21.3718 16.8657C21.375 12.0872 18.2622 9.5 14.2563 9.5C8.33467 9.5 4.218 15.1588 9.823 25.7418C11.6628 29.222 7.86283 30.0453 3.781 30.989C0.234333 31.806 0 33.5382 0 36.5338L0.00633333 38Z"
+                            fill="#514463"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="card-title">
+                <h2>
+                    Talent
+                </h2>
+                <p>
+                    World leading R&D workforce
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Connections & Networks first page -->
+<div class="page-break container main-cards">
+    <div class="heading flex-row align-start">
+        <div class="heading-title">
+            <h1 class="w-45">
+                Connections & Networks
+            </h1>
+        </div>
+    </div>
+    <div class="cards flex-row">
+        <div class="card">
+            <div class="card-top">
+                <img src="{{ public_path('/img/onenucleus.png') }}" alt="onenucleus">
+            </div>
+            <h2>One Nucleus</h2>
+            <span>
+                onenucleus.com
+            </span>
+            <h3>
+                Public Sector | Network Support
+            </h3>
+            <p>
+                One Nucleus is a not-for-profit Life Sciences & Healthcare membership organisation HQ’d in Cambridge.
+                They provide local, UK-wide and international connectivity for all their members to help them find the
+                best talent and route to market.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <img src="{{ public_path('/img/ashn.png') }}" alt="ashn">
+            </div>
+            <h2>Eastern AHSN</h2>
+            <span>
+                easternahsn.org
+            </span>
+            <h3>
+                Public Sector | Network Support
+            </h3>
+            <p>
+                Eastern AHSN helps innovators navigate complex systems, generate value propositions and convene key
+                stakeholders to realise the value of innovations quicker. Their focus is in the East of England, but
+                they are part of a national network to help innovators work with the NHS.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Connections & Networks second page -->
+<div class="page-break container main-cards">
+    <div class="heading flex-row align-start">
+        <div class="heading-title">
+            <h1 class="w-45">
+                Connections & Networks
+            </h1>
+        </div>
+    </div>
+    <div class="cards flex-row">
+        <div class="card">
+            <div class="card-top">
+                <img src="{{ public_path('/img/babraham.png') }}" alt="babraham">
+            </div>
+            <h2>Babraham Research Campus</h2>
+            <span>
+                babraham.com
+            </span>
+            <h3>
+                Research Campus | Office & Lab Space
+            </h3>
+            <p>
+                Babraham provides access to Accelerate@Babraham as well as a comprehensive range of administrative, IT
+                and corporate services. The world-class research and scientific facilities of the Babraham Institute are
+                available to occupiers on the campus.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <img src="{{ public_path('/img/ashn.png') }}" alt="ashn">
+            </div>
+            <h2>Eastern AHSN</h2>
+            <span>
+                easternahsn.org
+            </span>
+            <h3>
+                Public Sector | Network Support
+            </h3>
+            <p>
+                Eastern AHSN helps innovators navigate complex systems, generate value propositions and convene key
+                stakeholders to realise the value of innovations quicker. Their focus is in the East of England, but
+                they are part of a national network to help innovators work with the NHS.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- The Gateway to the UK Pharmaceuticals Industry page -->
+<div class="page-break container">
+    <div class="heading flex-row align-start">
+        <div class="heading-title">
+            <h1 class="w-80">
+                The Gateway to the UK Pharmaceuticals Industry
+            </h1>
+        </div>
+        <div class="heading-content">
+            The UK Pharmaceuticals market is one of the highest valued across Europe.The particular advantage of the UK
+            is in the market’s connected landscape and the National Health Service’s (NHS) role as a partner for
+            research, data and evidence development. The Cambridgeshire and Peterborough region is globally renowned as
+            one of the best locations to grow a Life Sciences company.
+        </div>
+    </div>
+    <div class="flex-row gateway-cards align-start">
+        <div class="card">
+            <h4>
+                UK Pharmaceuticals market value
+            </h4>
+            <p>
+                £20.29bn
+            </p>
+        </div>
+        <div class="card">
+            <h4>
+                UK Pharmaceuticals R&D spend
+            </h4>
+            <p>
+                £5.29bn
+            </p>
+        </div>
+        <div class="card">
+            <h4>
+                Regional Workforce
+            </h4>
+            <p>
+                15,000+
+            </p>
+            <span>
+                employees within life sciences
+            </span>
+        </div>
+    </div>
+    <div class="flex-row gateway-cards align-start flex-start">
+        <div class="card">
+            <h4>
+                Regional R&D
+            </h4>
+            <p>
+                316
+            </p>
+            <span>
+                Patent applications per 100K residents (highest in UK)
+            </span>
+        </div>
+        <div class="card">
+            <h4>
+                Regional Industry
+            </h4>
+            <p>
+                450+
+            </p>
+            <span>
+                Life Science & Healthcare companies
+            </span>
+        </div>
+    </div>
+
+</div>
+</div>
+<!-- Case study companies first page -->
+<div class="page-break container main-cards">
+    <div class="heading flex-row align-start">
+        <div class="heading-title">
+            <h1>
+                Case study companies
+            </h1>
+        </div>
+    </div>
+    <div class="cards flex-row">
+        <div class="card">
+            <div class="card-top">
+                <img src="{{ public_path('/img/astrazeneca.png') }}" alt="astrazeneca">
+            </div>
+            <h2>Astrazeneca</h2>
+            <span>
+                astrazeneca.com
+            </span>
+            <h3>
+                Public Sector | Network Support
+            </h3>
+            <p>
+                Cambridge is one of the most exciting bioscience hotspots in the world. It is home to one of
+                AstraZeneca’s three global R&D Centres, alongside Gothenburg and Gaithersburg, and plays a central role
+                in our mission to deliver life-changing medicines to patients.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <img src="{{ public_path('/img/abcam.png') }}" alt="abcam">
+            </div>
+            <h2>Abcam</h2>
+            <span>
+                abcam.org
+            </span>
+            <h3>
+                Public Sector | Network Support
+            </h3>
+            <p>
+                As a global life sciences company, Abcam identifies, develops, and distributes high-quality biological
+                reagents and tools that are crucial to research, drug discovery and diagnostics. Working across the
+                industry, Abcam supports scientists to achieve their mission, faster.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Case study companies second page -->
+<div class="page-break container main-cards">
+    <div class="heading flex-row align-start">
+        <div class="heading-title">
+            <h1>
+                Case study companies
+            </h1>
+        </div>
+    </div>
+    <div class="cards flex-row">
+        <div class="card">
+            <div class="card-top">
+                <img src="{{ public_path('/img/gsk.png') }}" alt="gsk">
+            </div>
+            <h2>GlaxoSmithKline</h2>
+            <span>
+                gsk.com
+            </span>
+            <h3>
+                Public Sector | Network Support
+            </h3>
+            <p>
+                We are one of the largest global healthcare companies researching, developing and supplying innovative
+                medicines, vaccines and healthcare products with our global HQ in the UK. Currently, we invest around
+                £1bn in research and development (R&D) in the UK annually.
+            </p>
+        </div>
+        <div class="card">
+            <div class="card-top">
+                <img src="{{ public_path('/img/envigo.png') }}" alt="abcam">
+            </div>
+            <h2>Envigo</h2>
+            <span>
+                envigo.org
+            </span>
+            <h3>
+                Public Sector | Network Support
+            </h3>
+            <p>
+                [Simon to supply copy]
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Pharmaceuticals Workforce page -->
+<div class="page-break container pharmaceuticals-market">
+    <div class="heading flex-row">
+        <div class="heading-title">
+            <h1>
+                Pharmaceuticals
+                <span>
+                Workforce
+            </span>
+            </h1>
+        </div>
+        <div class="heading-content flex-row">
+            <div class="heading-content__left">
+                <p>
+                    04
+                    <span>
+                        Market
+                    </span>
+                </p>
+                <p>
+                    12
+                    <span>
+                        Workforce & Salaries
+                    </span>
+                </p>
+                <p>
+                    16
+                    <span>
+                        Taxes
+                    </span>
+                </p>
+            </div>
+            <div class="heading-content__right">
+                <p>
+                    17
+                    <span>
+                        Cost of Operations
+                    </span>
+                </p>
+                <p>
+                    18
+                    <span>
+                        Investment
+                    </span>
+                </p>
+                <p>
+                    19
+                    <span>
+                        Services
+                    </span>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="content">
+        <p>
+            12
+            <span>
+               Workforce Salaries
+           </span>
+        </p>
+        <p>
+            13
+            <span>
+               Workforce Competing Locations
+           </span>
+        </p>
+    </div>
+</div>
+<!-- Cambridgeshire and Peterborough Workforce  page -->
+<div class="page-break container market-value">
+    <div class="heading flex-row align-start">
+        <div class="heading-title">
+            <h1>
+                Cambridgeshire and Peterborough Workforce
+            </h1>
+        </div>
+        <div class="heading-content">
+            A key part of the Lifesciences Golden Triangle the Cambridgeshire and Peterborough region enables access to
+            workforce from Oxford and London. The accessible Pharmaceutical workforce is notable for it’s size and
+            balance of experience levels from entry level through to the most experienced talent.
+        </div>
+    </div>
+    <div class="donut-cards mr-40 flex-row align-start">
+        <div class="card">
+            <div class="donut-title">
+                <h2>
+                    Pharmaceuticals Workforce
+                </h2>
+            </div>
+            <div class="donut-chart">
+                <div class="donut-chart__text flex-row flex-center">
+                    <p>
+                    <span>
+                        Total
+                    </span>
+                        4864
+                    </p>
+                </div>
+                <div class="brown-percent">
+                    <span>
+                        48.56%
+                    </span>
+                </div>
+                <div class="orange-percent">
+                    <span>
+                        20.06%
+                    </span>
+                </div>
+                <div class="lavander-percent">
+                    <span>
+                        30.08%
+                    </span>
+                </div>
+            </div>
+            <div class="donut-legend flex-row">
+                <div class="donut-legend-item orange">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item lavander">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item brown">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+            </div>
+            <div class="donut-info">
+                <p>
+                    Staff retention &#8212; <span>Good</span>
+                </p>
+            </div>
+        </div>
+        <div class="card w-49">
+            <div class="donut-title">
+                <h2>
+                    Salaries
+                </h2>
+            </div>
+            <div class="donut-table">
+                <div class="flex-row donut-table__row">
+                    <div>
+                        <span>
+                            Clinical Researcher
+                        </span>
+                    </div>
+                    <div>
+                        <span>
+                            Sales Manager
+                        </span>
+                    </div>
+                    <div>
+                        <span>
+                            Administrator
+                        </span>
+                    </div>
+                </div>
+                <div class="flex-row donut-table__row">
+                    <div>
+                        <span>
+                            1-5 years
+                        </span>
+                        <p>
+                            £24,678
+                        </p>
+                    </div>
+                    <div>
+                        <span>
+                            1-5 years
+                        </span>
+                        <p>
+                            £24,678
+                        </p>
+                    </div>
+                    <div>
+                        <span>
+                            1-5 years
+                        </span>
+                        <p>
+                            £24,678
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-row donut-table__row">
+                    <div>
+                        <span>
+                            5-10 years
+                        </span>
+                        <p>
+                            £44,678
+                        </p>
+                    </div>
+                    <div>
+                        <span>
+                            5-10 years
+                        </span>
+                        <p>
+                            £44,678
+                        </p>
+                    </div>
+                    <div>
+                        <span>
+                            5-10 years
+                        </span>
+                        <p>
+                            £44,678
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-row donut-table__row">
+                    <div>
+                        <span>
+                            10+ years
+                        </span>
+                        <p>
+                            £44,678
+                        </p>
+                    </div>
+                    <div>
+                        <span>
+                            10+ years
+                        </span>
+                        <p>
+                            £44,678
+                        </p>
+                    </div>
+                    <div>
+                        <span>
+                            10+ years
+                        </span>
+                        <p>
+                            £44,678
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+<!-- Competing Pharmaceuticals Locations first page -->
+<div class="page-break container market-value">
+    <div class="heading flex-row align-start">
+        <div class="heading-title">
+            <h1 class="w-80">
+                Competing Pharmaceuticals Locations
+            </h1>
+        </div>
+    </div>
+    <div class="donut-cards flex-row align-start">
+        <div class="card">
+            <div class="donut-title">
+                <h2>
+                    Warrington
+                </h2>
+            </div>
+            <div class="donut-chart">
+                <div class="donut-chart__text flex-row flex-center">
+                    <p>
+                    <span>
+                        Total
+                    </span>
+                        4864
+                    </p>
+                </div>
+                <div class="brown-percent">
+                    <span>
+                        48.56%
+                    </span>
+                </div>
+                <div class="orange-percent">
+                    <span>
+                        20.06%
+                    </span>
+                </div>
+                <div class="lavander-percent">
+                    <span>
+                        30.08%
+                    </span>
+                </div>
+            </div>
+            <div class="donut-legend flex-row">
+                <div class="donut-legend-item orange">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item lavander">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item brown">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+            </div>
+            <div class="donut-info">
+                <p>
+                    Staff retention &#8212; <span>Good</span>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="donut-title">
+                <h2>
+                    Burnley
+                </h2>
+            </div>
+            <div class="donut-chart">
+                <div class="donut-chart__text flex-row flex-center">
+                    <p>
+                    <span>
+                        Total
+                    </span>
+                        4864
+                    </p>
+                </div>
+                <div class="brown-percent">
+                    <span>
+                        48.56%
+                    </span>
+                </div>
+                <div class="orange-percent">
+                    <span>
+                        20.06%
+                    </span>
+                </div>
+                <div class="lavander-percent">
+                    <span>
+                        30.08%
+                    </span>
+                </div>
+            </div>
+            <div class="donut-legend flex-row">
+                <div class="donut-legend-item orange">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item lavander">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item brown">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+            </div>
+            <div class="donut-info">
+                <p>
+                    Staff retention &#8212; <span>High</span>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="donut-title">
+                <h2>
+                    Bolton
+                </h2>
+            </div>
+            <div class="donut-chart">
+                <div class="donut-chart__text flex-row flex-center">
+                    <p>
+                    <span>
+                        Total
+                    </span>
+                        4864
+                    </p>
+                </div>
+                <div class="brown-percent">
+                    <span>
+                        48.56%
+                    </span>
+                </div>
+                <div class="orange-percent">
+                    <span>
+                        20.06%
+                    </span>
+                </div>
+                <div class="lavander-percent">
+                    <span>
+                        30.08%
+                    </span>
+                </div>
+            </div>
+            <div class="donut-legend flex-row">
+                <div class="donut-legend-item orange">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item lavander">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item brown">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+            </div>
+            <div class="donut-info">
+                <p>
+                    Staff retention &#8212; <span>Low</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Competing Pharmaceuticals Locations second page -->
+<div class="page-break container market-value">
+    <div class="heading flex-row align-start">
+        <div class="heading-title">
+            <h1 class="w-80">
+                Competing Pharmaceuticals Locations
+            </h1>
+        </div>
+    </div>
+    <div class="donut-cards flex-row align-start">
+        <div class="card">
+            <div class="donut-title">
+                <h2>
+                    Middle Earth
+                </h2>
+            </div>
+            <div class="donut-chart">
+                <div class="donut-chart__text flex-row flex-center">
+                    <p>
+                    <span>
+                        Total
+                    </span>
+                        4864
+                    </p>
+                </div>
+                <div class="brown-percent">
+                    <span>
+                        48.56%
+                    </span>
+                </div>
+                <div class="orange-percent">
+                    <span>
+                        20.06%
+                    </span>
+                </div>
+                <div class="lavander-percent">
+                    <span>
+                        30.08%
+                    </span>
+                </div>
+            </div>
+            <div class="donut-legend flex-row">
+                <div class="donut-legend-item orange">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item lavander">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item brown">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+            </div>
+            <div class="donut-info">
+                <p>
+                    Staff retention &#8212; <span>Good</span>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="donut-title">
+                <h2>
+                    Kentucky
+                </h2>
+            </div>
+            <div class="donut-chart">
+                <div class="donut-chart__text flex-row flex-center">
+                    <p>
+                    <span>
+                        Total
+                    </span>
+                        4864
+                    </p>
+                </div>
+                <div class="brown-percent">
+                    <span>
+                        48.56%
+                    </span>
+                </div>
+                <div class="orange-percent">
+                    <span>
+                        20.06%
+                    </span>
+                </div>
+                <div class="lavander-percent">
+                    <span>
+                        30.08%
+                    </span>
+                </div>
+            </div>
+            <div class="donut-legend flex-row">
+                <div class="donut-legend-item orange">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item lavander">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item brown">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+            </div>
+            <div class="donut-info">
+                <p>
+                    Staff retention &#8212; <span>High</span>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="donut-title">
+                <h2>
+                    Streatham
+                </h2>
+            </div>
+            <div class="donut-chart">
+                <div class="donut-chart__text flex-row flex-center">
+                    <p>
+                    <span>
+                        Total
+                    </span>
+                        4864
+                    </p>
+                </div>
+                <div class="brown-percent">
+                    <span>
+                        48.56%
+                    </span>
+                </div>
+                <div class="orange-percent">
+                    <span>
+                        20.06%
+                    </span>
+                </div>
+                <div class="lavander-percent">
+                    <span>
+                        30.08%
+                    </span>
+                </div>
+            </div>
+            <div class="donut-legend flex-row">
+                <div class="donut-legend-item orange">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item lavander">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+                <div class="donut-legend-item brown">
+                    <span>
+                        0-5 yrs
+                    </span>
+                    <p>
+                        2,362
+                    </p>
+                </div>
+            </div>
+            <div class="donut-info">
+                <p>
+                    Staff retention &#8212; <span>Low</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pharmaceuticals Taxes page -->
+<div class="page-break container pharmaceuticals-market">
+    <div class="heading flex-row">
+        <div class="heading-title">
+            <h1>
+                Pharmaceuticals
+                <span>
+                Taxes
+            </span>
+            </h1>
+        </div>
+        <div class="heading-content flex-row">
+            <div class="heading-content__left">
+                <p>
+                    04
+                    <span>
+                        Market
+                    </span>
+                </p>
+                <p>
+                    12
+                    <span>
+                        Workforce & Salaries
+                    </span>
+                </p>
+                <p>
+                    16
+                    <span>
+                        Taxes
+                    </span>
+                </p>
+            </div>
+            <div class="heading-content__right">
+                <p>
+                    17
+                    <span>
+                        Cost of Operations
+                    </span>
+                </p>
+                <p>
+                    18
+                    <span>
+                        Investment
+                    </span>
+                </p>
+                <p>
+                    19
+                    <span>
+                        Services
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <p>
+            16
+            <span>
+               Corporation Tax
+           </span>
+        </p>
+        <p>
+            16
+            <span>
+               Employee Tax
+           </span>
+        </p>
+        <p>
+            16
+            <span>
+               Dividend repatriation
+           </span>
+        </p>
+    </div>
+</div>
+<!-- UK Taxes page -->
+<div class="page-break container market-value">
+    <div class="heading heading__no-border flex-row align-start">
+        <div class="heading-title">
+            <h1>
+                UK Taxes
+            </h1>
+        </div>
+        <div class="heading-content">
+            The UK has the lowest corporation tax in the G20 and the tax information below is a based upon the standard
+            rate for corporation tax and repatriation of dividends as well as an estimation rate for employee liability.
+        </div>
+    </div>
+</div>
+</div>
+<!-- Cost of operations page -->
+<div class="page-break container market-value">
+    <div class="heading heading__no-border flex-row align-start">
+        <div class="heading-title">
+            <h1>
+                Cost of operations
+            </h1>
+        </div>
+        <div class="heading-content">
+            This example is based on a pharmaceuticals company with 35 employees and a turnover of £3.2m. Employees
+            cover all aspects of research, development, sales, marketing and management. Operating costs labour
+            (including employer taxes), property and average utility costs for each country. National corporation tax is
+            used to calculate post Tax profits. The calculations are purely to provide guidance and are based upon
+            information correct at the time of publishing.
+        </div>
+    </div>
+</div>
+</div>
+<!-- UK Investment Landscape page -->
+<div class="page-break container market-value">
+    <div class="heading heading__no-border flex-row align-start">
+        <div class="heading-title">
+            <h1 class="w-80">
+                UK Investment Landscape
+            </h1>
+        </div>
+        <div class="heading-content">
+            The UK has a dominant role within the European investment landscape due to it's market size, R&D incentives
+            and mature investment eco-system.
+            The investment landscape has benefited from generous tax incentives UK investors receive when backing UK
+            companies. The dominant tax incentives are Seed Enterprise Investment Scheme (SEIS) and Enterprise
+            Investment Scheme (EIS).
+        </div>
+    </div>
+</div>
+</div>
+<!-- Services page -->
+<div class="page-break container market-value">
+    <div class="heading heading__no-border flex-row align-start">
+        <div class="heading-title">
+            <h1>
+                Services
+            </h1>
+        </div>
+        <div class="heading-content">
+            UK Market Entry Support
+            We have supported over 1000 companies to expand in and around the UK. Our team can help you understand the
+            opportunities and pathways across each industry.
+        </div>
+    </div>
+    <div class="services">
+        <h2>
+            Our Process
+        </h2>
+        <div class="process-cards flex-row align-start">
+            <div class="card">
+                <h2>
+                    1. Research
+                </h2>
+                <p>
+                    We can help you build your plan, identifying opportunities and exploring business set up issues.
+                    Highlighting the free support you can access and your roadmap for the UK market.
+                </p>
+                <span>
+                    Contact a specialist
+                    <span class="orange">
+                        rebecca.bekkenutte@growthworks.uk
+                    </span>
+
+                </span>
+            </div>
+            <div class="card">
+                <h2>
+                    2. Connect
+                </h2>
+                <p>
+                    When you are ready we can connect you to the people who can help with everything from company set
+                    up, legal and tax, recruitment and networks for business development.
+                </p>
+                <span>
+                    General Enquiries
+                    <span class="orange">
+                        rosa.delcampo@growthworks.uk
+                    </span>
+                </span>
+            </div>
+            <div class="card">
+                <h2>
+                    3. Launch
+                </h2>
+                <p>
+                    Finally, we can help you with your future growth through the packages of support you can receive
+                    from the GrowthWorks programme. Business coaching, investment and access to talent.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
 <style>
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: Meta Serif Pro;
+    }
+
+    .pt-20 {
+        padding-top: 20px;
+    }
+
+    .w-45 {
+        width: 45%;
+    }
+
+    .w-49 {
+        width: 47%;
+    }
+
+    .w-80 {
+        width: 80%;
     }
 
     footer {
@@ -307,6 +1631,10 @@
         margin-left: 20px;
     }
 
+    .mr-40 {
+        margin-right: 50px;
+    }
+
     main {
         background: #F4F4F4;
         height: 100vh;
@@ -317,9 +1645,9 @@
     }
 
     .heading {
-        padding-top: 25px;
         border-bottom: 3px solid #000;
         width: 100%;
+        height: 186px;
     }
 
     .heading__no-border {
@@ -361,10 +1689,41 @@
         align-items: center;
     }
 
-    .space-evenly {
+    .flex-col {
+        display: flex;
+        box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: justify; /* wkhtmltopdf uses this one */
+        justify-content: space-between;
+        -webkit-box-align: center; /* WebKit */
+        align-items: center;
+    }
+
+    .flex-center {
         justify-content: center;
         -webkit-box-pack: center;
     }
+
+    .flex-start {
+        justify-content: space-evenly;
+        -webkit-box-pack: start;
+    }
+
+    .flex-end {
+        justify-content: end;
+        -webkit-box-pack: end;
+    }
+
+    .align-start {
+        align-items: start;
+        -webkit-box-align: start;
+    }
+
+    .align-baseline {
+        align-items: baseline;
+        -webkit-box-align: baseline;
+    }
+
 
     .content {
         padding-top: 45px;
@@ -389,17 +1748,16 @@
         line-height: 55px;
         font-weight: 700;
         color: #C62D00;
-        padding-bottom: 120px;
     }
 
-    .market-value .heading-content {
+    .heading-content {
         width: 49%;
         margin-right: 0;
         padding-right: 20px;
         padding-top: 15px;
     }
 
-    .market-value .heading-title {
+    .heading-title {
         width: 50%;
     }
 
@@ -411,16 +1769,38 @@
 
     .market-value .content {
         background: #F4F4F4;
-        padding: 60px;
-        margin-top: 20px;
+        padding: 60px 50px 102px 50px;
+        position: relative;
+    }
+
+    .source {
+        position: absolute;
+        right: 2px;
+        bottom: 10px;
+    }
+
+    .source p {
+        font-size: 15px;
+        line-height: 0;
+        font-weight: 400;
+        letter-spacing: 0;
+        font-family: Meta Pro;
+    }
+
+    .source p span {
+        font-weight: 700;
+        font-family: Meta Pro;
+        padding-left: 0;
     }
 
     .market-value .content .content-info__item {
         margin-right: 120px;
+        width: 220px;
+
     }
 
     .market-value .content .content-info__item:first-child {
-        margin-left: 120px;
+        margin-left: 140px;
     }
 
     .market-value .content .content-info__item h2 {
@@ -447,7 +1827,6 @@
     .content-info__item .content-info__item-top {
         border-bottom: 1px solid #C4C4C4;
         padding-bottom: 12px;
-        padding-right: 25px;
     }
 
     .content-info__item .content-info__item-bottom {
@@ -460,6 +1839,371 @@
 
     .pharmaceuticals-market .heading-content {
         padding-top: 15px;
+    }
+
+    .content-graphs {
+        padding-top: 50px;
+    }
+
+    .content-graphs__currency {
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+
+    .content-graphs__currency p {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .content-graphs__values div {
+        font-size: 12px;
+        font-weight: 700;
+        padding-bottom: 27px;
+        padding-right: 5px;
+    }
+
+    .content-graphs__table {
+        padding-top: 10px;
+        position: relative;
+    }
+
+    .content-graphs__table .line {
+        width: 1000px;
+        padding-bottom: 20px;
+        border-top: 1px solid #C4C4C4;
+    }
+
+    .content-graphs__table .line:last-child {
+        padding-bottom: 0;
+        border-top: 1px solid #08050F;
+    }
+
+    .charts {
+        position: absolute;
+        bottom: 1px;
+    }
+
+    .chart {
+        margin-left: 142px;
+    }
+
+    .chart:first-child {
+        margin-left: 50px;
+    }
+
+    .chart-orange {
+        width: 80px;
+        height: 170px;
+        background: #F23801;
+        position: relative;
+    }
+
+    .chart-placeholder {
+        position: absolute;
+        bottom: -30px;
+    }
+
+    .chart-placeholder p {
+        font-size: 16px;
+        line-height: 0;
+        font-weight: 700;
+    }
+
+
+    .chart-gray {
+        position: relative;
+        width: 80px;
+        height: 100px;
+        background: #7E748C;
+        margin-left: 40px;
+    }
+
+    .eco-system .cards {
+        padding-top: 200px;
+    }
+
+    .eco-system .cards .card h2 {
+        font-size: 38px;
+        line-height: 30px;
+        font-weight: 700;
+        padding: 25px 0 15px 0;
+    }
+
+    .eco-system .cards .card p {
+        font-size: 17px;
+        line-height: 25px;
+        font-weight: 700;
+        letter-spacing: 0;
+        width: 60%
+    }
+
+    .eco-system .cards .card .card-icon {
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        border: 7px solid #514463;
+    }
+
+    .eco-system .cards .card .card-icon div {
+        margin: 0 auto;
+    }
+
+    .main-cards .cards {
+        padding-top: 70px;
+        padding-right: 40px;
+    }
+
+    .main-cards .cards .card {
+        width: 44%;
+    }
+
+    .main-cards .cards .card h2 {
+        font-size: 38px;
+        line-height: 30px;
+        font-weight: 700;
+        padding: 40px 0 15px 0;
+    }
+
+    .main-cards .cards .card span {
+        color: #F23801;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+
+    .main-cards .cards .card h3 {
+        line-height: 17px;
+        font-size: 17px;
+        padding: 20px 0;
+    }
+
+    .main-cards .cards .card p {
+        line-height: 20px;
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+
+
+    .main-cards .cards .card .card-top img {
+        width: 90%;
+    }
+
+    .gateway-cards {
+        padding: 60px 50px;
+        border-bottom: 5px solid #000;
+    }
+
+    .gateway-cards:last-child {
+        border-bottom: 0;
+    }
+
+    .gateway-cards:last-child .card span {
+        width: 67%;
+    }
+
+    .gateway-cards .card h4 {
+        font-size: 22px;
+        line-height: 18px;
+    }
+
+    .gateway-cards .card p {
+        font-weight: 700;
+        font-size: 78px;
+        letter-spacing: 0;
+        line-height: 110px;
+        font-family: Meta Serif Pro;
+    }
+
+    .gateway-cards .card span {
+        font-size: 22px;
+        display: block;
+    }
+
+    .donut-chart {
+        display: block;
+        position: relative;
+        width: 220px;
+        height: 220px;
+        border: 13px solid red;
+        border-radius: 100%;
+        border: 13px solid #F23801;
+        border-spacing: 2px;
+        border-top: 13px solid #EE8F57;
+        border-left: 13px solid #EE8F57;
+        margin: 40px auto;
+        border-right: 13px solid #514463;
+    }
+
+    .donut-chart__text {
+        height: 100%;
+        width: 100%;
+    }
+
+    .donut-chart .donut-chart__text span {
+        font-size: 24px;
+    }
+
+    .donut-chart span {
+        font-weight: 700;
+        font-size: 18px;
+        display: block;
+        font-family: Meta Pro;
+    }
+
+    .donut-chart p {
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 34px;
+        font-family: Meta Serif Pro;
+    }
+
+    .orange-percent {
+        position: absolute;
+        bottom: -37px;
+        left: 37%;
+    }
+
+    .lavander-percent {
+        position: absolute;
+        top: 41%;
+        right: -83px;
+    }
+
+    .brown-percent {
+        position: absolute;
+        top: -3px;
+        left: -47px;
+    }
+
+    .donut-cards {
+        padding: 50px 0;
+    }
+
+    .donut-cards .donut-legend {
+        padding: 20px 0 10px 0;
+    }
+
+    .donut-cards .donut-legend-item {
+        border-left: 6px solid;
+        padding: 0 30px 0 10px;
+    }
+
+    .donut-cards .donut-legend-item span {
+        font-weight: 700;
+        font-size: 16px;
+        font-family: Meta Pro;
+    }
+
+    .donut-cards .donut-legend-item p {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 34px;
+        font-family: Meta Serif Pro;
+    }
+
+    .donut-cards .donut-title h2 {
+        font-size: 38px;
+        font-family: Meta Serif Pro;
+        line-height: 45px;
+        padding-bottom: 20px;
+    }
+
+    .donut-cards .donut-info p {
+        padding-top: 25px;
+        font-size: 20px;
+        letter-spacing: 0;
+        font-family: Meta Serif Pro;
+        line-height: 30px;
+    }
+
+    .donut-cards .donut-info span {
+        font-weight: 700;
+    }
+
+    .donut-cards .orange {
+        border-color: #F23801;
+    }
+
+    .donut-cards .lavander {
+        border-color: #514463;
+    }
+
+    .donut-cards .brown {
+        border-color: #EE8F57;
+    }
+
+    .donut-cards .donut-table {
+        padding-top: 120px;
+    }
+
+    .donut-cards .donut-table .donut-table__row span {
+        font-weight: 700;
+    }
+
+    .donut-cards .donut-table .donut-table__row:first-child span {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .donut-cards .donut-table .donut-table__row:first-child {
+        padding-bottom: 15px;
+    }
+
+    .donut-cards .donut-table .donut-table__row {
+        padding: 7px 0 35px 0;
+        border-bottom: 2px solid #000;
+    }
+
+    .donut-cards .donut-table .donut-table__row:last-child {
+        border-bottom: 0;
+    }
+
+    .donut-cards .donut-table .donut-table__row div p {
+        padding-top: 7px;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 34px;
+        font-family: Meta Serif Pro;
+    }
+
+    .services h2 {
+        font-size: 34px;
+        font-weight: 700;
+        font-family: Meta Serif Pro;
+    }
+
+    .process-cards {
+        padding-top: 50px;
+    }
+
+    .process-cards .card {
+        width: 33%;
+        height: 300px;
+        border-left: 4px solid #C62D00;
+        padding: 0 15px 0 25px;
+    }
+
+    .process-cards .card p {
+        padding-top: 25px;
+        font-size: 18px;
+        letter-spacing: 0;
+        font-family: Meta Serif Pro;
+        line-height: 30px;
+    }
+
+    .process-cards .card span {
+        display: block;
+        padding-top: 35px;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0;
+        font-family: Meta Serif Pro;
+        line-height: 30px;
+    }
+
+    .process-cards .card .orange {
+        padding-top: 0;
+        color: #C62D00;
     }
 
     @font-face {
