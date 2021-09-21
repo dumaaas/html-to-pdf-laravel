@@ -35,9 +35,13 @@ return [
 
     'pdf' => [
         'enabled' => true,
-        'binary'  => env('WKHTML_PDF_BINARY', '"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf"'),
+        'binary'  => base_path('vendor\wemersonjanuario\wkhtmltopdf-windows\bin\64bit\wkhtmltopdf'),
         'timeout' => false,
         'options' => [
+            'enable-javascript'=> true,
+            'javascript-delay'=> 1500,
+            'enable-smart-shrinking'=> true,
+            'no-stop-slow-scripts' => true,
             'margin-top' => 15,
             'margin-bottom' => 12,
             'margin-left' => 0,

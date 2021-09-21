@@ -20,10 +20,21 @@ class ReportController extends Controller
 
         $pdf = PDF::loadView($viewName)->setOrientation('landscape');
         $pdf->setOption('enable-local-file-access', true);
+        $pdf->setOption('enable-javascript', true);
+        $pdf->setOption('javascript-delay', 5000);
+        $pdf->setOption('enable-smart-shrinking', true);
+        $pdf->setOption('no-stop-slow-scripts', true);
         $pdf->setOption('header-html', view('reports.header'));
         $pdf->setOption('footer-html', view('reports.footer'));
-        return $pdf->stream('example.pdf');
+        return $pdf->download('example.pdf');
         return view($viewName);
+    }
+
+    public function report() {
+        $pdf = PDF::loadView('reports.chartjs');
+        return $pdf->download('chart.pdf');
+        return view('reports.chartjs');
+
     }
 
     /**
