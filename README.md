@@ -49,3 +49,59 @@ $ composer require h4cc/wkhtmltoimage-amd64 0.12.x
 'header.blade.php', -> header for all report pages
 'report.blade.php', -> all report pages
 ```
+
+8. Add css files to public/css and js files to public/js 
+
+``` bash
+css files => [app.css, fonts.css]
+js files => [chart.js, doughnot.js]
+```
+
+8. Set this options in config/snappy.php 
+
+``` bash
+'pdf' => [
+    enabled' => true,
+    'binary' => base_path('vendor/h4cc/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64'),
+    'timeout' => false,
+    'options' => [
+        'enable-javascript' => true,
+        'javascript-delay' => 1000,
+        'enable-smart-shrinking' => true,
+        'no-stop-slow-scripts' => true,
+        'margin-top' => 15,
+        'margin-bottom' => 12,
+        'margin-left' => 0,
+        'margin-right' => 0,
+    ],
+    'env' => [],
+],
+```
+
+9. Finally, add this code to your report controller
+
+``` bash
+public function report()
+{
+    $viewName = 'reports.report';
+    $header = View::make('reports.header');
+    // for some reason $footer is not working (need to check this)
+    // $footer = View::make('reports.footer');
+    $pdf = PDF::loadView($viewName)->setOrientation('landscape');
+    $pdf->setOption('enable-local-file-access', true);
+    $pdf->setOption('header-html', $header);
+    // $pdf->setOption('footer-html', $footer);
+        
+    // download pdf file
+    return $pdf->download('report.pdf');
+
+    //stream pdf file
+    // return $pdf->download('report.pdf');
+
+    //open pdf as view
+    // return view($viewName);
+}
+```
+
+
+
