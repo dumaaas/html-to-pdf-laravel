@@ -17,7 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/reports/{id}', [\App\Http\Controllers\ReportController::class, 'index'])->name('report');
-Route::get('reports/header', [\App\Http\Controllers\ReportController::class, 'header'])->name('header');
-Route::get('/akoznam', [\App\Http\Controllers\ReportController::class, 'report'])->name('chartjs');
+Route::get('/reports/report', [\App\Http\Controllers\ReportController::class, 'index'])->name('report');
 

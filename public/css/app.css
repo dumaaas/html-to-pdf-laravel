@@ -1,66 +1,897 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Meta Serif Pro;
+}
+
+.myCanvas {
+    padding: 50px 0;
+    width: 450px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-49 {
+    width: 47%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+html {
+    height: 100vh
+}
+
+body {
+    height: 100%
+}
+
+h1 span {
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.cover-page {
+    width: 100%;
+    height: auto;
+    background: #C62D00;
+}
+
+.cover-page h1 {
+    font-size: 80px;
+    line-height: 80px;
+    padding-top: 40px;
+    padding-bottom: 0;
+    color: #fff;
+}
+
+.cover-page span {
+    font-size: 75px;
+}
+
+.cover-page svg {
+    fill: #C62D00;
+}
+
+.logo-heading {
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-bottom: 225px;
+}
+
+.orange-dots {
+    width: 625px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.orange-dots img {
+    width: 100%;
+}
+
+.page-break {
+    position: relative;
+    height: 100vh;
+    page-break-inside: avoid;
+    page-break-after: always;
+}
+
+.page-break:last-child {
+    page-break-after: auto;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-40 {
+    margin-right: 50px;
 }
 
 main {
-  background: #F4F4F4;
-  height: 100vh;
-}
-
-header .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header .header-logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-header .header-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 55px;
-  padding-right: 33px;
-}
-header .header span {
-  display: block;
-  font-weight: bold;
-}
-header .header p {
-  font-size: 10px;
-  line-height: 12px;
+    background: #F4F4F4;
+    height: 100vh;
 }
 
 .container {
-  padding: 20px 40px;
+    padding: 20px 60px;
 }
 
 .heading {
-  padding-top: 25px;
-  padding-bottom: 77px;
-  border-bottom: 2px solid #000;
-  width: 100%;
+    border-bottom: 3px solid #000;
+    width: 100%;
+    height: 186px;
 }
 
+.heading__no-border {
+    border-bottom: 0px;
+}
+
+.heading-content p {
+    letter-spacing: 0;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: "Meta Pro";
+}
+
+.heading-content p span {
+    font-weight: 700;
+    font-family: "Meta Pro";
+    padding-left: 10px;
+}
+
+.heading-content__right {
+    width: 50%;
+}
+
+.heading-content {
+    margin-right: 195px;
+}
+
+.heading-content__left {
+    margin-right: 40px;
+    width: 60%;
+}
+
+.flex-row {
+    display: flex;
+    display: -webkit-box;
+    /* wkhtmltopdf uses this one */
+    -webkit-box-pack: justify;
+    /* wkhtmltopdf uses this one */
+    justify-content: space-between;
+    -webkit-box-align: center;
+    /* WebKit */
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    /* wkhtmltopdf uses this one */
+    justify-content: space-between;
+    -webkit-box-align: center;
+    /* WebKit */
+    align-items: center;
+}
+
+.flex-center {
+    justify-content: center;
+    -webkit-box-pack: center;
+}
+
+.flex-start {
+    justify-content: space-evenly;
+    -webkit-box-pack: start;
+}
+
+.flex-end {
+    justify-content: end;
+    -webkit-box-pack: end;
+}
+
+.align-start {
+    align-items: start;
+    -webkit-box-align: start;
+}
+
+.align-baseline {
+    align-items: baseline;
+    -webkit-box-align: baseline;
+}
+
+
 .content {
-  padding-top: 30px;
-  padding-right: 65px;
+    padding-top: 45px;
+    padding-right: 105px;
+}
+
+.content p span {
+    padding-left: 40px;
 }
 
 p {
-  font-size: 34px;
-  line-height: 44px;
-  font-weight: 400;
+    font-size: 52px;
+    line-height: 65px;
+    letter-spacing: 1.2px;
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 32px;
-  font-weight: 700;
-  color: #C62D00;
+    letter-spacing: 2px;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #C62D00;
+}
+
+.heading-content {
+    width: 49%;
+    margin-right: 0;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.heading-title {
+    width: 50%;
+}
+
+
+.market-value,
+.pharmaceuticals-market .flex-row {
+    -webkit-box-align: start;
+    /* WebKit */
+    align-items: flex-start;
+}
+
+.market-value .content {
+    background: #F4F4F4;
+    padding: 60px 50px 102px 50px;
+    position: relative;
+}
+
+.source {
+    position: absolute;
+    right: 2px;
+    bottom: 10px;
+}
+
+.source p {
+    font-size: 15px;
+    line-height: 0;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-family: Meta Pro;
+}
+
+.source p span {
+    font-weight: 700;
+    font-family: Meta Pro;
+    padding-left: 0;
+}
+
+.market-value .content .content-info__item {
+    margin-right: 120px;
+    width: 220px;
+
+}
+
+.market-value .content .content-info__item:first-child {
+    margin-left: 140px;
+}
+
+.market-value .content .content-info__item h2 {
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 12px;
+}
+
+.market-value .content .content-info__item span {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.market-value .content .content-info__item p {
+    font-size: 32px;
+    line-height: 40px;
+    color: #F23801;
+    font-weight: 700;
+    font-family: "Meta Serif Pro";
+    padding-top: 5px;
+}
+
+.content-info__item .content-info__item-top {
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 12px;
+}
+
+.content-info__item .content-info__item-bottom {
+    padding-top: 7px;
+}
+
+.market-value .content .content-info__item .content-info__item-bottom p {
+    color: #7E748C;
+}
+
+.pharmaceuticals-market .heading-content {
+    padding-top: 15px;
+}
+
+.content-graphs {
+    padding-top: 50px;
+}
+
+.content-graphs .chart-line {
+    position: relative;
+    height: 150px;
+    width: 10px;
+    background: #F23801;
+}
+
+.content-graphs .lavander {
+    background: #514463;
+}
+
+.content-graphs .orange {
+    background: #F23801;
+}
+
+.content-graphs .chart-circle {
+    display: flex;
+    display: -webkit-box;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    top: -50px;
+    left: -30px;
+    height: 70px;
+}
+
+.content-graphs .chart-circle p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.content-graphs__currency {
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+.graphs-content .content-graphs .content-graphs__table .charts-cost .chart:first-child {
+    margin-left: 75px;
+}
+
+.graphs-content .content-graphs .content-graphs__table .charts-cost .chart {
+    margin-left: 130px;
+}
+
+.content-graphs__currency p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.content-graphs__values div {
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 27px;
+    padding-right: 5px;
+}
+
+.content-graphs__table {
+    padding-top: 10px;
+    position: relative;
+}
+
+.content-graphs__table .line {
+    width: 1000px;
+    padding-bottom: 20px;
+    border-top: 1px solid #C4C4C4;
+}
+
+.content-graphs__table .line:last-child {
+    padding-bottom: 0;
+    border-top: 1px solid #08050F;
+}
+
+.charts {
+    position: absolute;
+    bottom: 1px;
+}
+
+.chart {
+    margin-left: 142px;
+}
+
+.chart:first-child {
+    margin-left: 50px;
+}
+
+.chart-orange {
+    width: 80px;
+    height: 170px;
+    background: #F23801;
+    position: relative;
+}
+
+.chart-placeholder {
+    position: absolute;
+    bottom: -30px;
+}
+
+.chart-placeholder p {
+    font-size: 16px;
+    line-height: 0;
+    font-weight: 700;
+}
+
+.chart-number {
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+}
+
+.chart-number p {
+    text-align: center;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.chart-gray {
+    position: relative;
+    width: 80px;
+    height: 100px;
+    background: #7E748C;
+    margin-left: 40px;
+}
+
+.eco-system .cards {
+    padding-top: 200px;
+}
+
+.eco-system .cards .card h2 {
+    font-size: 38px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 25px 0 15px 0;
+}
+
+.eco-system .cards .card p {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0;
+    width: 60%
+}
+
+.eco-system .cards .card .card-icon {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 7px solid #514463;
+}
+
+.eco-system .cards .card .card-icon div {
+    margin: 0 auto;
+}
+
+.main-cards .cards {
+    padding-top: 70px;
+    padding-right: 40px;
+}
+
+.main-cards .cards .card {
+    width: 44%;
+}
+
+.main-cards .cards .card h2 {
+    font-size: 38px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 40px 0 15px 0;
+}
+
+.main-cards .cards .card span {
+    color: #F23801;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.main-cards .cards .card h3 {
+    line-height: 17px;
+    font-size: 17px;
+    padding: 20px 0;
+}
+
+.main-cards .cards .card p {
+    line-height: 20px;
+    font-size: 17px;
+    letter-spacing: 0;
+}
+
+
+.main-cards .cards .card .card-top img {
+    width: 90%;
+}
+
+.gateway-cards {
+    padding: 60px 50px;
+    border-bottom: 5px solid #000;
+}
+
+.gateway-cards:last-child {
+    border-bottom: 0;
+}
+
+.gateway-cards:last-child .card span {
+    width: 67%;
+}
+
+.gateway-cards .card h4 {
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.gateway-cards .card p {
+    font-weight: 700;
+    font-size: 78px;
+    letter-spacing: 0;
+    line-height: 110px;
+    font-family: Meta Serif Pro;
+}
+
+.gateway-cards .card span {
+    font-size: 22px;
+    display: block;
+}
+
+.donut-chart {
+    display: block;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border: 13px solid red;
+    border-radius: 100%;
+    border: 13px solid #F23801;
+    border-spacing: 2px;
+    border-top: 13px solid #EE8F57;
+    border-left: 13px solid #EE8F57;
+    margin: 40px auto;
+    border-right: 13px solid #514463;
+}
+
+.donut-chart__text {
+    height: 100%;
+    width: 100%;
+}
+
+.donut-chart .donut-chart__text span {
+    font-size: 24px;
+}
+
+.donut-chart span {
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    font-family: Meta Pro;
+}
+
+.donut-chart p {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    font-family: Meta Serif Pro;
+}
+
+.orange-percent {
+    position: absolute;
+    bottom: -37px;
+    left: 37%;
+}
+
+.lavander-percent {
+    position: absolute;
+    top: 41%;
+    right: -83px;
+}
+
+.brown-percent {
+    position: absolute;
+    top: -3px;
+    left: -47px;
+}
+
+.donut-cards {
+    padding: 50px 0;
+}
+
+.donut-cards .donut-legend {
+    padding: 20px 0 10px 0;
+}
+
+.donut-cards .donut-legend-item {
+    border-left: 6px solid;
+    padding: 0 30px 0 10px;
+}
+
+.donut-cards .donut-legend-item span {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Meta Pro;
+}
+
+.donut-cards .donut-legend-item p {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    font-family: Meta Serif Pro;
+}
+
+.donut-cards .donut-title h2 {
+    font-size: 38px;
+    font-family: Meta Serif Pro;
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+
+.donut-cards .donut-info p {
+    padding-top: 25px;
+    font-size: 20px;
+    letter-spacing: 0;
+    font-family: Meta Serif Pro;
+    line-height: 30px;
+}
+
+.donut-cards .donut-info span {
+    font-weight: 700;
+}
+
+.donut-cards .orange {
+    border-color: #F23801;
+}
+
+.donut-cards .lavander {
+    border-color: #514463;
+}
+
+.donut-cards .brown {
+    border-color: #EE8F57;
+}
+
+.donut-cards .donut-table {
+    padding-top: 120px;
+}
+
+.donut-cards .donut-table .donut-table__row span {
+    font-weight: 700;
+}
+
+.donut-cards .donut-table .donut-table__row:first-child span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.donut-cards .donut-table .donut-table__row:first-child {
+    padding-bottom: 15px;
+}
+
+.donut-cards .donut-table .donut-table__row {
+    padding: 7px 0 35px 0;
+    border-bottom: 2px solid #000;
+}
+
+.donut-cards .donut-table .donut-table__row:last-child {
+    border-bottom: 0;
+}
+
+.donut-cards .donut-table .donut-table__row div p {
+    padding-top: 7px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    font-family: Meta Serif Pro;
+}
+
+.services h2 {
+    font-size: 34px;
+    font-weight: 700;
+    font-family: Meta Serif Pro;
+}
+
+.process-cards {
+    padding-top: 50px;
+}
+
+.process-cards .card {
+    width: 33%;
+    height: 300px;
+    border-left: 4px solid #C62D00;
+    padding: 0 15px 0 25px;
+}
+
+.process-cards .card p {
+    padding-top: 25px;
+    font-size: 18px;
+    letter-spacing: 0;
+    font-family: Meta Serif Pro;
+    line-height: 30px;
+}
+
+.process-cards .card span {
+    display: block;
+    padding-top: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-family: Meta Serif Pro;
+    line-height: 30px;
+}
+
+.process-cards .card .orange {
+    padding-top: 0;
+    color: #C62D00;
+}
+
+.graphs-content {
+    background: #F4F4F4;
+    padding: 40px 80px 75px 80px;
+}
+
+.graphs-content h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-bottom: 12px;
+    width: 50%;
+}
+
+.graphs-content .chart {
+    margin-left: 60px;
+}
+
+.graphs-content .chart:first-child {
+    margin-left: 20px;
+}
+
+.graphs-content .content-graphs {
+    padding-top: 100px;
+}
+
+.graphs-content .chart-orange {
+    width: 25px;
+    height: 38px;
+}
+
+.graphs-content .chart-yellow {
+    background: #EAA001;
+    width: 25px;
+    height: 28px;
+    margin-left: 6px;
+    position: relative;
+}
+
+.graphs-content .chart-gray {
+    width: 25px;
+    height: 4px;
+    margin-left: 6px;
+}
+
+.graphs-content span {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-family: Meta Serif Pro;
+    line-height: 23px;
+}
+
+.graphs-content p {
+    font-size: 16px;
+    letter-spacing: 0;
+    font-family: Meta Serif Pro;
+    line-height: 23px;
+    font-weight: 700;
+}
+
+.graphs-content .graphs-content__info .graphs-content__info-left {
+    width: 40%;
+}
+
+.graphs-content .graphs-content__info .graphs-content__info-right {
+    width: 49%;
+}
+
+.cost-operations .graphs-content {
+    padding-bottom: 30px;
+}
+
+.cost-operations .graphs-content .content-graphs {
+    padding-top: 50px;
+}
+
+.cost-operations .graphs-content h2 {
+    width: 100%;
+}
+
+.cost-operations .bl-2 {
+    margin-bottom: 0;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cost-operations .bl-2:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.pharmaceuticals-investment .graphs-content {
+    padding: 80px;
+}
+
+.pharmaceuticals-investment .graphs-content .chart:first-child {
+    margin-left: 55px;
+}
+
+.pharmaceuticals-investment .graphs-content .chart-orange {
+    width: 75px;
+    height: 180px;
+}
+
+.locate-cambridge p {
+    padding-top: 70px;
+    font-size: 29px;
+    line-height: 35px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.locate-cambridge span:first-child {
+    padding-top: 123px;
+}
+
+.locate-cambridge span {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.locate-cambridge .graphs-content__info .graphs-content__info-left {
+    width: 55%;
+}
+
+.locate-cambridge .graphs-content__info .graphs-content__info-right {
+    width: 48%;
+}
+
+.bl-2 {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    height: 40px;
+    border-left: 8px solid;
+}
+
+.bl-2:nth-child(2) {
+    margin-bottom: 55px;
+}
+
+.bl-orange {
+    border-color: #F23801;
+}
+
+.bl-yellow {
+    border-color: #EAA001;
+}
+
+.bl-lavander {
+    border-color: #7E748C;
+}
+
+.cloud {
+    background: #E5E5E5;
+    padding: 10px 80px 25px 30px;
+    border-radius: 10px;
 }

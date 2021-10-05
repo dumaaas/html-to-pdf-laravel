@@ -35,12 +35,12 @@ return [
 
     'pdf' => [
         'enabled' => true,
-        'binary'  => base_path('vendor\wemersonjanuario\wkhtmltopdf-windows\bin\64bit\wkhtmltopdf'),
+        'binary' => base_path('vendor/h4cc/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64'),
         'timeout' => false,
         'options' => [
-            'enable-javascript'=> true,
-            'javascript-delay'=> 1500,
-            'enable-smart-shrinking'=> true,
+            'enable-javascript' => true,
+            'javascript-delay' => 1000,
+            'enable-smart-shrinking' => true,
             'no-stop-slow-scripts' => true,
             'margin-top' => 15,
             'margin-bottom' => 12,
