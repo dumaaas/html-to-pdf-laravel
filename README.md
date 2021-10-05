@@ -32,14 +32,19 @@ $ php artisan vendor:publish --provider="Barryvdh\Snappy\ServiceProvider"
 5. Require wkhtmltopdf package in your composer.json and update composer.
 
 ``` bash
+LINUX 
 $ composer require h4cc/wkhtmltopdf-amd64 0.12.x
-$ composer require h4cc/wkhtmltoimage-amd64 0.12.x
+WINDOWS
+composer require wemersonjanuario/wkhtmltopdf-windows "0.12.2.3"
 ```
 
 6. The main change to this config file (config/snappy.php) will be the path to the binaries. 
 
 ``` bash
+LINUX
 'binary' => base_path('vendor/h4cc/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64'),
+WINDOWS
+'binary' => base_path('vendor/wemersonjanuario/wkhtmltopdf-windows/bin/64bit/wkhtmltopdf.exe'),
 ```
 
 7. Create reports directory in your resources/views and add this files there
